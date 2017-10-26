@@ -1,0 +1,39 @@
+vanmacmini6:ATOM_WORKPLACE zeromax$ testrpc --db ./chain/ --testnet --account=0x2DAd2118Ec0D8105030482b5d0ECD09D6A3aa395
+Keccak bindings are not compiled. Pure JS implementation will be used.
+EthereumJS TestRPC v4.1.3 (ganache-core: 1.1.3)
+
+Available Accounts
+==================
+(0) 0x6b0ae26fad6aa633695664b3d939e3e8752e6566
+(1) 0x5838d5520f5bc077e674857d9874b8877ea982d1
+(2) 0xd00b0fc715ef1a3006f4aa21005c35569c68dbb6
+(3) 0xa8afada1162e64dd930c0b6e8036c355f4cd7ebd
+(4) 0x9a78cb3ae2ed5aafa38f8ea0eb54a4f526a6d914
+(5) 0xa9b0bb925938e840b8c8fb4db046e9aac6b9dd3a
+(6) 0x5eb22a70f2de4b7ebf30a4a7453c5299837e7592
+(7) 0x901a88dc556e93f99776b01148fa95727ad005ac
+(8) 0x2b3fa7b908b88b7e50a3777f9df395c62cafc498
+(9) 0x86c90a5fd2c3d8e6202799ce871e05f0f189a4f0
+
+Private Keys
+==================
+(0) 6c4ab7e4a8ba4403c2510a5b40cfbaefefdf5ed2a1d209a0e1e6a2d702f702dd
+(1) d81e68db88331ceba0c83dc3a6fe64f14fc7e15c62590baec498bc759d31ea4a
+(2) 4a1d8574caa4dd10051451d8a066af466db42c550062bf9da7ecd2869ed1dac0
+(3) 65d695d04f97502c408486237ae2ab6b7af2679e9d1c05aa8f75a0b28a9cb7ba
+(4) 8e35d107c1069193c06576eff41ed68ebcdf4ba0a07d04a653f3318efb3bd5e8
+(5) 3fc5717ee4bb36876a7c2b37107960d3dccd716ea85ce13eac684ce7c5a31b36
+(6) f5a618a3fb2c968e9453561715b3c4bdd7ad63973caa72f52ff30d4a9420bc09
+(7) 6030eac285b7275782da102effb8273334bb6e254afbc68d188bbbc3e4e7fe2c
+(8) f744b009b3bdcc363ab15589674f2d6dd167daedcdecf62704b3077ca9f96058
+(9) d90e8e949b75e05328f0346f3fc92f0240dca4fd514317170f4ea7a1c9d53b56
+
+HD Wallet
+==================
+Mnemonic:      pumpkin drop wolf disagree basket canyon shock phrase auction ripple census shrug
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+
+testrpc --db ./chain/ -m "pumpkin drop wolf disagree basket canyon shock phrase auction ripple census shrug"
+
+https://www.youtube.com/watch?v=ShW2zQcY4LY
