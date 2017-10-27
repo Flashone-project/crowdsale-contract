@@ -21,8 +21,8 @@ async function liveDeploy(deployer, accounts) {
   const BigNumber = web3.BigNumber;
   const RATE = 1;//new BigNumber(1);
   console.log(duration.weeks(1));
-  const startTime = latestTime() + duration.weeks(1)
-  const endTime = startTime + duration.weeks(1)
+  const startTime = latestTime() + duration.minutes(5);
+  const endTime = startTime + duration.weeks(1);
 
   console.log([startTime, endTime, RATE, accounts[0]]);
 
@@ -34,3 +34,9 @@ async function liveDeploy(deployer, accounts) {
     console.log('Token address', token);
   })
 }
+
+// var WEE = require('web3')
+// var web3 = new WEE('http://localhost:8545')
+// web3.eth.abi.encodeParameters(['uint256', 'uint256', 'uint256', 'address'], [1509064459,1509669259,1,'0x008491e354540059dd8a06b500112460419d6a34'])
+// 1509064459,1509669259,1,'0x008491e354540059dd8a06b500112460419d6a34'
+// 'uint256', 'uint256', 'uint256', 'address'
